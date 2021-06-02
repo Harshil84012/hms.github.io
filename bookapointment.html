@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookapointment</title>
+    <link href="C:\Users\129TX\Desktop\python\hms\css\bookapointment.css" rel="stylesheet" type="text/css">
+    <style>
+             html{
+            background:url('back.jpg') no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+          }
+  </style>
+</head>
+<body>
+    <div class="loginbox">
+        <h1>Book Appointment</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="" placeholder="patient name">
+            
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+          
+            <p>Contact no.</p>
+            <input type="text" name="" placeholder="10 digit number">
+
+            <p>Email</p>
+            <input type="text" name="" placeholder="Email id">
+
+            <p>Date of birth</p>
+            <input type="date" name="birthdate" id="birthdate"><br>   
+
+            <p>Hospital Location</p>
+            <input type="text" name="" placeholder=""><br> 
+
+            <p>Preffered Date for Appointment</p>
+            <input type="date" name="date" placeholder="date"><br> 
+
+            <p>Preffered Time</p>
+            <input type="time" name="time" placeholder="time"><br>
+
+            <p>Department</p>
+            <form>
+                <label for="Department">Choose a Department:</label>
+                <select name="Department" id="Department">
+                  <optgroup label="Department">
+                    <option value="cardiology">cardiology</option>
+                    <option value="radiology">radiology</option>
+                    <option value="skin">skin</option>
+                    <option value="orthopadic">Orthopadic</option>
+                    <option value="Plasticsurgery">Plasticsurgery</option>
+                    <option value="emergency">emergency</option>
+                  </optgroup>
+                </select>
+            </form>
+                  <br>
+                  <br>
+
+            <input type="Submit" name="" value="Submit">
+            <input type="Submit" name="" value="Reset">
+
+           
+            
+        </form>
+    </div>
+</body>
+</html>
